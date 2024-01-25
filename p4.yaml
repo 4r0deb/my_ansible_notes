@@ -1,0 +1,5 @@
+- name: My first play
+  hosts: myhosts
+  tasks:
+   - name: Run a script with arguments (free form)
+     ansible.builtin.script: space_hdd.sh  
